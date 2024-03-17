@@ -8,6 +8,7 @@ TagManager:
   - HoldPoint
   - PickableObject
   - Destination
+  - Target
   layers:
   - Default
   - TransparentFX
