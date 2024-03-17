@@ -138,8 +138,6 @@ GameObject:
   - component: {fileID: 375431202}
   - component: {fileID: 375431201}
   - component: {fileID: 375431207}
-  - component: {fileID: 375431209}
-  - component: {fileID: 375431210}
   m_Layer: 0
   m_Name: Destination 1
   m_TagString: Destination
@@ -288,34 +286,6 @@ MonoBehaviour:
   destinationTag: Destination
   destinationPoints:
   - {fileID: 375431206}
---- !u!114 &375431209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375431200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10902434da8dda345901127a410dd77a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinationTag: Destination
-  destinationPoints: []
---- !u!114 &375431210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375431200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10902434da8dda345901127a410dd77a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinationTag: Destination
-  destinationPoints: []
 --- !u!1 &406684187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,8 +1469,8 @@ Transform:
   m_GameObject: {fileID: 2024033920}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 0.1, z: 7}
+  m_LocalPosition: {x: 0, y: -0.05, z: 0}
+  m_LocalScale: {x: 90.338585, y: 0.1, z: 59.9487}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1599,8 +1569,6 @@ GameObject:
   - component: {fileID: 2073062057}
   - component: {fileID: 2073062056}
   - component: {fileID: 2073062062}
-  - component: {fileID: 2073062063}
-  - component: {fileID: 2073062064}
   m_Layer: 0
   m_Name: Destination 2
   m_TagString: Destination
@@ -1749,34 +1717,6 @@ MonoBehaviour:
   destinationTag: Destination
   destinationPoints:
   - {fileID: 2073062061}
---- !u!114 &2073062063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073062055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10902434da8dda345901127a410dd77a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinationTag: Destination
-  destinationPoints: []
---- !u!114 &2073062064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073062055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10902434da8dda345901127a410dd77a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinationTag: Destination
-  destinationPoints: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
